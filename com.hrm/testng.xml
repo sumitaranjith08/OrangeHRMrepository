@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hrm.TestCases.BaseClass"/>
+       <class name="com.hrm.TestCases.TC_001_LoginTest"/>
+       <class name="com.hrm.TestCases.TC_002_HomeTest"/>
+       <class name="com.hrm.TestCases.TC_003_AddEmployee"/>
+        <!--class name="com.hrm.TestCases.TC_004_EmpDDT"/-->
+        <class name="com.hrm.TestCases.TC_005_EmpListTest"/>
+      
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
